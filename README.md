@@ -1,6 +1,6 @@
-# API - Sistema de Caixa de Banco (Desafio Vindi)
+# API - Sistema de Caixa de Banco
 
-Esta é uma API RESTful desenvolvida em .NET 8 como solução para o desafio técnico da Vindi. O sistema permite o cadastro de contas bancárias, consulta, inativação, transferência de valores entre contas e **auditoria automática e transacional de operações críticas**.
+Esta é uma API RESTful desenvolvida em .NET 8 como solução para o desafio técnico. O sistema permite o cadastro de contas bancárias, consulta, inativação, transferência de valores entre contas e **auditoria automática e transacional de operações críticas**.
 
 ## Tecnologias Utilizadas
 
