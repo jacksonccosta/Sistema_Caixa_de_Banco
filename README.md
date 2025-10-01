@@ -82,7 +82,7 @@ A estrutura de pastas reflete a separação de responsabilidades da Clean Archit
 ### Passos
 1.  **Clone o repositório:**
     ```bash
-    git clone https://seu-repositorio/Vindi.SistemaBancario.git
+    git clone https://github.com/jacksonccosta/Sistema_Caixa_de_Banco.git
     cd Vindi.SistemaBancario
     ```
 
@@ -102,7 +102,7 @@ A estrutura de pastas reflete a separação de responsabilidades da Clean Archit
     ```
 
 5.  **Acesse a Documentação:**
-    Com a aplicação em execução, abra seu navegador e acesse `http://localhost:5000` (ou a porta indicada no terminal) para visualizar a documentação interativa do Swagger.
+    Com a aplicação em execução, abra seu navegador e acesse o endereço na porta indicada no seu terminal para visualizar a documentação interativa do Swagger.
 
 ## Endpoints da API
 
