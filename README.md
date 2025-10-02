@@ -64,7 +64,7 @@ A estrutura de pastas reflete a separação de responsabilidades da Clean Archit
 ### Passos
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/jacksonccosta/Sistema_Caixa_de_Banco.git](https://github.com/jacksonccosta/Sistema_Caixa_de_Banco.git)
+    git clone https://github.com/jacksonccosta/Sistema_Caixa_de_Banco.git
     cd Sistema_Caixa_de_Banco
     ```
 
