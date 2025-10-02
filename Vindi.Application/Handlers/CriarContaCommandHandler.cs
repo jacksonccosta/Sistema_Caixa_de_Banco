@@ -31,7 +31,6 @@ public class CriarContaCommandHandler : IRequestHandler<CriarContaCommand, Conta
 
         await _repository.AdicionarAsync(novaConta);
 
-        // Persiste a nova conta no banco de dados
         await _unitOfWork.CompleteAsync(cancellationToken);
 
         return new ContaDto

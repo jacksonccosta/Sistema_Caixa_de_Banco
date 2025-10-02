@@ -3,7 +3,7 @@ using Vindi.Application.Commands;
 using Vindi.Core.Interfaces;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Collections.Generic; // Para KeyNotFoundException
+using System.Collections.Generic;
 
 namespace Vindi.Application.Handlers;
 
