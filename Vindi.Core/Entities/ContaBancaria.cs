@@ -65,4 +65,7 @@ public class ContaBancaria
         Status = StatusConta.Inativa;
         DataInativacao = DateTime.UtcNow;
     }
+
+    public ICollection<HistoricoTransferencia> TransferenciasEnviadas { get; private set; } = new List<HistoricoTransferencia>();
+    public ICollection<HistoricoTransferencia> TransferenciasRecebidas { get; private set; } = new List<HistoricoTransferencia>();
 }

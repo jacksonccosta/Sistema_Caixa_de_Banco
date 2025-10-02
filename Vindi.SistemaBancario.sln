@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vindi.Infrastructure", "Vin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vindi.API", "Vindi.API\Vindi.API.csproj", "{EA7FF02C-B997-4020-9312-36028207ADDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vindi.Tests", "Vindi.Tests\Vindi.Tests.csproj", "{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{EA7FF02C-B997-4020-9312-36028207ADDF}.Release|x64.Build.0 = Release|Any CPU
 		{EA7FF02C-B997-4020-9312-36028207ADDF}.Release|x86.ActiveCfg = Release|Any CPU
 		{EA7FF02C-B997-4020-9312-36028207ADDF}.Release|x86.Build.0 = Release|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Debug|x64.Build.0 = Debug|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Debug|x86.Build.0 = Debug|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Release|x64.ActiveCfg = Release|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Release|x64.Build.0 = Release|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Release|x86.ActiveCfg = Release|Any CPU
+		{5CD959E8-D62B-4248-8D24-A9F96F7B4D98}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

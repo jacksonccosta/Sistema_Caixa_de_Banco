@@ -101,6 +101,23 @@ public class ContasController : ControllerBase
     }
 
     /// <summary>
+    /// Obtém o histórico de transferências (enviadas e recebidas) de uma conta.
+    /// </summary>
+    /// <param name="documento">Documento do titular da conta.</param>
+    /// <returns>Uma lista com o histórico de transferências.</returns>
+    /// <response code="200">Retorna o histórico da conta.</response>
+    /// <response code="404">Se nenhuma conta for encontrada para o documento informado.</response>
+    [HttpGet("{documento}/historico-transferencias")]
+    [ProducesResponseType(typeof(IEnumerable<TransferenciaDto>), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> ObterHistoricoTransferencias(string documento)
+    {
+        var query = new ObterHistoricoTransferenciasQuery(documento);
+        var historico = await _mediator.Send(query);
+        return Ok(historico);
+    }
+
+    /// <summary>
     /// Inativa uma conta bancária.
     /// </summary>
     /// <remarks>

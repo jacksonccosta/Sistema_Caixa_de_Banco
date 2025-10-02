@@ -8,6 +8,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
 {
     public DbSet<ContaBancaria> ContasBancarias { get; set; }
     public DbSet<LogAuditoria> LogsAuditoria { get; set; }
+    public DbSet<HistoricoTransferencia> HistoricoTransferencias { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
