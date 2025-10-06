@@ -70,26 +70,30 @@ A estrutura de pastas reflete a separação de responsabilidades da Clean Archit
 
 2.  **Configure a Connection String:**
     Abra o arquivo `Vindi.API/appsettings.json` e altere a `DefaultConnection` para apontar para sua instância do SQL Server.
+    * 2.1 - Altere a ConnectionStrings:
+    ![Alterar ConectionStrings](images/CN.png)
 
-3.  **Aplique as Migrations do Banco de Dados:**
-    Abra um terminal na raiz do projeto e execute o comando abaixo. Ele criará o banco de dados e todas as tabelas (`ContasBancarias`, `LogsAuditoria`, `HistoricoTransferencias`).
-    ```bash
-    dotnet ef database update --startup-project Vindi.API
-    ```
+    * 2.2 - Abra o Package Manager Console:
+    ![Package Manager Console](images/PMG.png)
 
-4.  **Execute a API:**
-    ```bash
-    cd Vindi.API
-    dotnet run
-    ```
+    * 2.3 - Execute o comando para Update-Database para criar o banco de dados e atualizar com as Migrations no Projeto `VINDI.Infrastructre`:
+    ![Update-Database](images/UD.png)
 
-5.  **Execute os Testes (Opcional):**
+
+3.  **Execute a API:**
+    * 3.1 - Sete o projeto VIND.API como projeto para iniciar, clicando com o botão direito no Projeto da API e selecionando a opção `Set as Startup Project`:    
+    ![Set start project](images/sST.png)
+
+    * 3.2 - Execute a aplicação `VINDI.API`
+    ![Execução](images/EX.png)
+
+4.  **Execute os Testes (Opcional):**
     Em um novo terminal, na raiz da solução, execute o comando:
     ```bash
     dotnet test
     ```
 
-6.  **Acesse a Documentação:**
+5.  **Acesse a Documentação:**
     Com a aplicação em execução, abra seu navegador e acesse o endereço na porta indicada no seu terminal para visualizar a documentação interativa do Swagger.
 
 ## Endpoints da API
