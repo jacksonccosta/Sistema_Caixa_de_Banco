@@ -71,21 +71,21 @@ A estrutura de pastas reflete a separação de responsabilidades da Clean Archit
 2.  **Configure a Connection String:**
     Abra o arquivo `Vindi.API/appsettings.json` e altere a `DefaultConnection` para apontar para sua instância do SQL Server.
     * 2.1 - Altere a ConnectionStrings:
-    ![Alterar ConectionStrings](images/CN.png)
+    ![Alterar ConectionStrings](Images/CN.png)
 
     * 2.2 - Abra o Package Manager Console:
-    ![Package Manager Console](images/PMG.png)
+    ![Package Manager Console](Images/PMG.png)
 
     * 2.3 - Execute o comando para Update-Database para criar o banco de dados e atualizar com as Migrations no Projeto `VINDI.Infrastructre`:
-    ![Update-Database](images/UD.png)
+    ![Update-Database](Images/UD.png)
 
 
 3.  **Execute a API:**
     * 3.1 - Sete o projeto VIND.API como projeto para iniciar, clicando com o botão direito no Projeto da API e selecionando a opção `Set as Startup Project`:    
-    ![Set start project](images/sST.png)
+    ![Set start project](Images/sST.png)
 
     * 3.2 - Execute a aplicação `VINDI.API`
-    ![Execução](images/EX.png)
+    ![Execução](Images/EX.png)
 
 4.  **Execute os Testes (Opcional):**
     Em um novo terminal, na raiz da solução, execute o comando:
