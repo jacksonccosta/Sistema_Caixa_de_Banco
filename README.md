@@ -76,7 +76,7 @@ A estrutura de pastas reflete a separação de responsabilidades da Clean Archit
     * 2.2 - Abra o Package Manager Console:
     ![Package Manager Console](Images/PMG.png)
 
-    * 2.3 - Execute o comando para Update-Database para criar o banco de dados e atualizar com as Migrations no Projeto `VINDI.Infrastructre`:
+    * 2.3 - Execute o comando para `Update-Database` para criar o banco de dados e atualizar com as Migrations no Projeto `VINDI.Infrastructre` (Caso o Update-Database não funcione de primeira, execute a aplicação para que seja criada as DLL's e depois execute novamente o Update):
     ![Update-Database](Images/UD.png)
 
 
